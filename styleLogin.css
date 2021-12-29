@@ -1,0 +1,29 @@
+
+.bloco-form{
+   width:33%;
+   margin:5% auto; 
+   border: solid 2px grey;
+   border-radius: 20px;
+   height: 220px;
+   text-align:center;
+   padding:3em 0em;
+}
+
+.bloco-form p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bloco-form input{
+    width:25em;
+    height:1.8em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    border: solid 1px black;
+}
+
+.bloco-form button{
+    width:10em;
+    height:1.8em;
+}
+
