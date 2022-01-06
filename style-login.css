@@ -1,7 +1,7 @@
 
 .bloco-form{
-   width:33%;
-   margin:5% auto; 
+   width:45%;
+   margin:1% auto; 
    border: solid 2px grey;
    border-radius: 20px;
    height: 220px;
@@ -10,8 +10,7 @@
 }
 
 .bloco-form p{
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
 }
 
 .bloco-form input{
@@ -27,3 +26,15 @@
     height:1.8em;
 }
 
+
+
+
+@media only screen and (max-width:1100px){
+    .bloco-form{
+      width:100%;
+    }
+
+    .bloco-form input{
+        width:90%;
+    }
+  }
